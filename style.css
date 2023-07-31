@@ -195,7 +195,7 @@ span {
 .servico .servico-titulo {
     font: 700 24px "Roboto Bold";
     text-align: center;
-    
+
 }
 
 .servico .servico-nome {
@@ -205,6 +205,22 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 30px;
+}
+/* fim servicos */
+/* time */
+.equipe .container {
+    flex-direction: column;
 }
 
-/* fim servicos */
+.equipe .pessoas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe .pessoas .pessoa {
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+/* fim time */
