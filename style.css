@@ -132,4 +132,45 @@ span {
 .sobreNos .imagem img {
     width: 500px;
 }
+
+.sobreNos .conteudo .texto {
+    text-align: justify;
+}
+
+.sobreNos .conteudo {
+    margin-right: 100px; 
+}
 /* fim sobre nos */
+/* info */
+.infos .quadrados .quadrado img {
+    width: 100px;
+}
+
+.infos .quadrados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.quadrado {
+    background-color: #f1f6fe;
+    border: 1px solid #8ca9ce;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 20px;
+    width: 230px;
+}
+/* fim info */
+/* divisao */
+.divisao {
+    background-color: #1150a3;
+    height: 2px;
+}
+/* fim divisao */
+/* servicos */
+.servicos .container {
+    flex-direction: column;
+}
+/* fim servicos */
