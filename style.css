@@ -14,6 +14,7 @@ img {
     width: 100%;
     height: auto;
 }
+
 /* fim reset */
 /* fontes */
 @font-face {
@@ -49,6 +50,7 @@ img {
     font-family: "Roboto Regular";
     src: url(Font/Roboto-Regular.ttf);
 }
+
 /* fim fontes */
 /*  */
 .container {
@@ -56,7 +58,8 @@ img {
     justify-content: space-between;
     align-items: center;
     margin: 0 100px;
-} 
+}
+
 /* fim */
 
 /* contato */
@@ -74,6 +77,7 @@ img {
     color: #fff;
     margin-right: 40px;
 }
+
 /* fim contato */
 /* header */
 .logo .nome {
@@ -85,6 +89,7 @@ img {
     color: #000000;
     margin-left: 60px;
 }
+
 /* fim header */
 /* inicio */
 .inicio {
@@ -108,6 +113,7 @@ img {
 .texto-inicio {
     font: 500 40px "Poppins Regular";
 }
+
 /* fim inicio */
 /* titulo */
 .titulo {
@@ -118,11 +124,13 @@ img {
 span {
     color: #106EEA;
 }
+
 /* fim titulo */
 /* texto */
 .texto {
     font: 500 20px "OpenSans Regular"
 }
+
 /* fim texto */
 /* sobre nos */
 .conteudo {
@@ -138,8 +146,9 @@ span {
 }
 
 .sobreNos .conteudo {
-    margin-right: 100px; 
+    margin-right: 100px;
 }
+
 /* fim sobre nos */
 /* info */
 .infos .quadrados .quadrado img {
@@ -162,15 +171,40 @@ span {
     margin: 0 20px;
     width: 230px;
 }
+
 /* fim info */
 /* divisao */
 .divisao {
     background-color: #1150a3;
     height: 2px;
 }
+
 /* fim divisao */
 /* servicos */
 .servicos .container {
     flex-direction: column;
 }
+
+.servico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.servico .servico-titulo {
+    font: 700 24px "Roboto Bold";
+    text-align: center;
+    
+}
+
+.servico .servico-nome {
+    border: 2px solid #8ca8ce;
+    width: 275px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* fim servicos */
