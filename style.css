@@ -222,5 +222,67 @@ span {
 .equipe .pessoas .pessoa {
     border: 1px solid #000000;
     border-radius: 10px;
+    margin: 0 25px;
+}
+
+.equipe .conteudo .texto {
+    text-align: justify;
 }
 /* fim time */
+/* forms */
+.formulario .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario .informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endereco {
+    width: 250px;
+    border: 3px solid #1150a3;
+    height: 350px;
+    text-align: center;
+    padding: 80px 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+input {
+    height: 60px;
+    background-color: #dcdcdc;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 5px 8px;
+}
+
+textarea {
+    background-color: #dcdcdc;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: #106eea;
+    color: #fff;
+    font: 700 20px "Roboto Bold";
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin: 0 60px;
+}
+/* fim forms */
+
+main section,
+main .conteudo,
+.divisao {
+    margin-bottom: 80px;
+}
