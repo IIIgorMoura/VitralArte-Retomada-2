@@ -1,0 +1,60 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+/* fim reset */
+/* fontes */
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans Bold";
+    src: url(Font/OpenSans-Bold.ttf);
+}
+
+
+
+@font-face {
+    font-family: "Poppins Bold";
+    src: url(Font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(Font/Poppins-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(Font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(Font/Roboto-Regular.ttf);
+}
+/* fim fontes */
+/*  */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+} 
+/* fim */
