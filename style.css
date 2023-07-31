@@ -1,4 +1,4 @@
-/* reset */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +15,9 @@ img {
     height: auto;
 }
 
-/* fim reset */
-/* fontes */
+/* FINAL DO RESET */
+
+/* FONTES */
 @font-face {
     font-family: "OpenSans Regular";
     src: url(Font/OpenSans-Regular.ttf);
@@ -26,8 +27,6 @@ img {
     font-family: "OpenSans Bold";
     src: url(Font/OpenSans-Bold.ttf);
 }
-
-
 
 @font-face {
     font-family: "Poppins Bold";
@@ -39,8 +38,6 @@ img {
     src: url(Font/Poppins-Regular.ttf);
 }
 
-
-
 @font-face {
     font-family: "Roboto Bold";
     src: url(Font/Roboto-Bold.ttf);
@@ -51,8 +48,8 @@ img {
     src: url(Font/Roboto-Regular.ttf);
 }
 
-/* fim fontes */
-/*  */
+/* FIM DAS FONTES */
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -60,9 +57,9 @@ img {
     margin: 0 100px;
 }
 
-/* fim */
+/* FIM DAS FONTES */
 
-/* contato */
+/* CONTATO */
 .contato {
     background-color: #106eea;
 }
@@ -78,8 +75,9 @@ img {
     margin-right: 40px;
 }
 
-/* fim contato */
-/* header */
+/* FIM CONTATO */
+
+/* HEADER */
 .logo .nome {
     font: 700 40px "Poppins Bold";
 }
@@ -90,8 +88,9 @@ img {
     margin-left: 60px;
 }
 
-/* fim header */
-/* inicio */
+/* FIM HEADER */
+
+/* INICIO */
 .inicio {
     background-image: url(Img/Vitral.png);
     height: 400px;
@@ -114,8 +113,9 @@ img {
     font: 500 40px "Poppins Regular";
 }
 
-/* fim inicio */
-/* titulo */
+/* FIM INICIO */
+
+/* TITULO */
 .titulo {
     font: 700 40px "Roboto Bold";
     color: #000000;
@@ -125,14 +125,16 @@ span {
     color: #106EEA;
 }
 
-/* fim titulo */
-/* texto */
+/* FIM TITULO */
+
+/* TEXTO */
 .texto {
     font: 500 20px "OpenSans Regular"
 }
 
-/* fim texto */
-/* sobre nos */
+/* FIM TEXTO */
+
+/* SOBRE NOS */
 .conteudo {
     text-align: center;
 }
@@ -149,8 +151,9 @@ span {
     margin-right: 100px;
 }
 
-/* fim sobre nos */
-/* info */
+/* FIM SOBRE NOS */
+
+/* INFOS */
 .infos .quadrados .quadrado img {
     width: 100px;
 }
@@ -172,15 +175,17 @@ span {
     width: 230px;
 }
 
-/* fim info */
-/* divisao */
+/* FIM DAS INFOS */
+
+/* DIVISÕES */
 .divisao {
     background-color: #1150a3;
     height: 2px;
 }
 
-/* fim divisao */
-/* servicos */
+/* FIM DAS DIVISÕES */
+
+/* SERVIÇOS */
 .servicos .container {
     flex-direction: column;
 }
@@ -195,7 +200,6 @@ span {
 .servico .servico-titulo {
     font: 700 24px "Roboto Bold";
     text-align: center;
-
 }
 
 .servico .servico-nome {
@@ -207,8 +211,10 @@ span {
     align-items: center;
     margin: 15px 30px;
 }
-/* fim servicos */
-/* time */
+
+/* FIM DOS SERVIÇOS */
+
+/* TIME */
 .equipe .container {
     flex-direction: column;
 }
@@ -229,8 +235,10 @@ span {
     text-align: justify;
     margin: 30px 60px;
 }
-/* fim time */
-/* forms */
+
+/* FIM DOS TIMES */
+
+/* OS FORMS */
 .formulario .container {
     flex-direction: column;
     align-items: center;
@@ -280,7 +288,8 @@ button {
     padding: 10px 15px;
     margin: 30px 60px;
 }
-/* fim forms */
+
+/* FIM DOS FORMS */
 
 main section,
 main .conteudo,
