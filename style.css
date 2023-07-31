@@ -95,16 +95,18 @@ img {
 }
 
 .inicio .container {
-    justify-content: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
     height: 400px;
 }
 
 .titulo-inicio {
-    font: 700 40px "Poppins Bold"
+    font: 700 80px "Poppins Bold";
 }
 
 .texto-inicio {
-    font: 500 40px "Poppins Regular"
+    font: 500 40px "Poppins Regular";
 }
 /* fim inicio */
 /* titulo */
@@ -114,8 +116,20 @@ img {
 }
 
 span {
-    color: #106EEA
+    color: #106EEA;
+}
 /* fim titulo */
 /* texto */
-
+.texto {
+    font: 500 20px "OpenSans Regular"
+}
 /* fim texto */
+/* sobre nos */
+.conteudo {
+    text-align: center;
+}
+
+.sobreNos .imagem img {
+    width: 500px;
+}
+/* fim sobre nos */
